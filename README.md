@@ -45,3 +45,7 @@ JOIN Dwarves d ON o.dwarf_id = d.id
 JOIN Products p ON o.product_id = p.id
 ORDER BY p.price DESC
 LIMIT 1;
+
+## Disclaimer ⚠️
+This project is purely for fun and educational purposes. No actual dwarves were harmed in the making of this database. 
+May your queries be fast and your transactions atomic! 🍻
